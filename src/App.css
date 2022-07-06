@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
 .App {
   text-align: center;
 }
@@ -6,6 +12,8 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +44,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+ /* .maindiv{
+ 
+  min-width: 320px;
+  max-width: 600px;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+
+  margin: 30px auto;
+}  */
+.dropdiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 30px;
+  margin-bottom:10px;
+  background-color:   #04AA6D;
+border-radius: 10px;
+}
+.dropdiv:hover
+{
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.14);
+
+}
+.buttoncontainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
